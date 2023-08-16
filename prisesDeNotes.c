@@ -30,10 +30,28 @@ else ; register ; union
 int main(void)
 {
 	//Déclaration d'une variable de type entier (int)
+	// =, ne veut pas dire égal mais c'est seulement une affectation
 	int aireDuCarre = 0; //aireDuCarre sera stocké (par exemple dans 0xF500DA)
 
 	float prixReservation = 15.345;
 	signed char = 120;
 	signed char = 'A';
+	return 0;
+}
+////////////////////////////////////////////////////////////////////////////////
+
+int main(void)
+{
+	//Déclaration et affectation d'une variable de type entier (int)
+	int nombre_entier = (int)140.23;
+	int autre_nombre = 23;
+
+	/*
+					%d : nombre entier(int)
+					%f : nombre flottant (float)
+					%c : caractére (char)
+					%s : chaîne de caractéres (texte)
+	*/
+	printf("Le nombre est %d ou %d.\n", nombre_entier, autre_nombre);
 	return 0;
 }
