@@ -55,3 +55,62 @@ int main(void)
 	printf("Le nombre est %d ou %d.\n", nombre_entier, autre_nombre);
 	return 0;
 }
+
+//
+
+int main(void)
+{
+	float prix = 123.43;
+
+	printf("Le prix est de %.2f euros.\n", prix); // pour afficher un flottant avec deux chiffres aprés la virgule
+
+	return 0;
+}
+
+//Pour déclarer une variable constante :
+
+int main(void)
+{
+	const float PI = 3.14;
+	printf("PI = %.2f\n.", PI);
+	return 0;
+}
+
+//Pour stocker une variable dans la RAM processeur
+
+int maint(void)
+{
+	register int nombre = 5;
+	volatile int autre_nombre = 10;
+	return 0;
+}
+
+/*
+maVariable : contenu de la variable (exemple maVariable = 15)
+&maVariable : adresse où est stockée la variable
+*/
+
+int main(void)
+{
+int ageUtilisateur = 0;
+
+printf("Quel âge avez-vous ?");
+scanf("%d", &ageUtilisateur);
+
+printf("Vous avez %d ans.\n", ageUtilisateur);
+
+return 0;
+}
+
+//
+
+int main(void)
+{
+	signed char lettre = 'A';
+
+	printf("Entrez une lettre : \n");
+	scanf("%c", &lettre);
+	printf("Lettre choisie => %c\n", lettre);
+
+	return 0;
+}
