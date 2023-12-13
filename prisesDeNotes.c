@@ -9,16 +9,7 @@ int main(void)
 
 // LES VARIABLES
 /* Les mots réservés sous C :
-
-auto ; enum ; return ; unsigned
-break ; extern ; short ; void
-case ; float ; signed ; volatile
-char ; for ; sizeof ; while
-const ; goto ; static
-default ; if ; struct
-do ; int ; switch
-double ; long ; typedef
-else ; register ; union
+hjgkjhhjjh
 */
 int main(void)
 {
