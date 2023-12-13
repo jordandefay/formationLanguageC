@@ -1,11 +1,4 @@
-#include <stdio.h>
-// Pour compiler sous linux : gcc <nom_du_fichier_entree> -o <nom_du_fichier_sortie>
-/*
-On peut écrire
-des commentaires
-sur plusieurs lignes
-de cette maniére
-*/
+NYUUULLLKSLFNHLKCH
 
 // Pour afficher un print sur la console
 int main(void)
